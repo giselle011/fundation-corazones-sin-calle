@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--1. Los metadatos-->
+<meta charset="UTF-8">
+  <meta name="description" content="Fundación Corazones sin Calle - Ayudando a corazones nobles">
+  <meta name="keywords" content="Fundación, Corazones sin calle, ayuda, caridad, comunidad, niños">
+  <meta name="author" content="Giselle Martínez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--2. Título de la página que aparece en el buscador-->
+  <title>Corazones sin Calle</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  
+  <!--3. Enlace al archivo CSS-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!--hasta acá va el head-->
+<body>
+    <header class="header">
+        <div class="container header-inner">
+        <a class="logo" href="#">
+             <img src="IMG/Logo fundación.png" alt="Logo Fundación Pies con Cora" height="80" />
+             
+             </a>
+             
+ <!--Aquí va el inicio-->            
+<nav class="inicio">
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a class="btn-donar" href="#donar">Dona</a></li>
+    </ul>
+</nav>
+</div>
+</header>
+
+<main>
+   <!--HERO con video-->
+   <section class="hero video-hero">
+      <video class="hero-video" id="heroVideo" autoplay muted loop playsinline>
+        <!--Aquí colocamos el video-->
+        <source src="IMG/Video Campaña Corazones sin Calle.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <div class="hero-text">
+          <!--Frase que se relaciona con la fundación Carazón sin calle-->
+          <h2>Cada corazón merece un hogar</h2>
+          <p>Porque cada niño merece un hogar, una oportunidad y un corazón que crea en él.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://forms.gle/VDz2kkeeHPBweT6W9">Dona </a>
+              <a class="btn outline" href="#voluntariado"> Sé parte</a>
+
+          </div>
+        </div> 
+
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">+224.000</div>
+            <div class="stat-label">Niños beneficiados</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+12.000</div>
+            <div class="stat-label">Docentes capacitados</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+300</div>
+            <div class="stat-label">Colegios acompañados</div>
+          </div>
+        </div>
+      </div>
+      
+      </section>
+
+<section id="proyectos" class="projects container">
+      <h2>Nuestros proyectos</h2>
+      <p class="lead">Impulsamos programas que brindan apoyo, educación y espacios seguros para que los niños en situación de calle puedan construir un futuro mejor:</p>
+
+      <div class="project-cards">
+        <article class="card">
+          <div class="card-img" id="Aulas-móviles"></div>
+          <div class="card-body">
+            <h3>Aulas móviles</h3>
+            <p>Llevamos clases básicas a zonas donde viven niños en situación de calle, para que puedan aprender sin importar dónde estén.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="Comedor-comunitario"></div>
+          <div class="card-body">
+            <h3>Comedor comunitario</h3>
+            <p>Ofrecemos alimentos diarios y un espacio seguro para que los niños puedan convivir y recibir apoyo.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="Talleres-de-vida"></div>
+          <div class="card-body">
+            <h3>Talleres de vida</h3>
+            <p>Impartimos actividades creativas, deportivas y emocionales que ayudan a los niños a desarrollar habilidades y confianza.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+      <!--Aquí van los datos de contacto que se encuentran dentro del recuadro rosa-->
+        <section id="contacto" class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h2>¡No te pierdas lo último!</h2>
+          <p>Suscríbete para recibir noticias e historias.</p>
+        </div>
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <!--Esta es la parte para que adjuntes tu email-->
+          <input id="email" type="email" placeholder="Tu correo electrónico" required />
+          <button class="btn primary" type="submit">Suscribirme</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+    </section>
+
+    <!--Aquí va una pequeña descripción-->
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Sobre la fundación</h4>
+        <p>Dedicada a brindar apoyo, educación y esperanza a niños en situación de calle. Nuestro objetivo es ofrecerles un entorno seguro, oportunidades de aprendizaje y el acompañamiento necesario para que puedan construir un futuro digno y lleno de amor.</p>
+      </div>
+      <!--Aquí es la parte de información sobre la fundación-->
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+        </ul>
+      </div>
+      <!--Aquí va la dirección, correo y datos-->
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <address>
+          Tlalnepantla de Baz - 27<br/>Estado de México, México<br/>
+          <a href="mailto:gyssarai@gmail.com">gyssarai@gmail.com</a>
+        </address>
+      </div>
+    </div>
+
+ <!-- Redes sociales -->
+  <div class="footer-social">
+    <div class="container social-icons">
+      <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://mx.linkedin.com/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://x.com/" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+     
+    </div>
+  </div>
+
+    <div class="footer-bottom">
+      <div class="container">© <span id="anio"></span> Fundación Corazones sin Calle</div>
+    </div>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
+
+<!--Conclusión: Lo que más se me dificultó fue organizar bien las secciones y lograr que todo quedara ordenado en la página, porque al principio se me confundían las etiquetas y el contenido no se veía como quería. Lo solucioné repasando qué hacía cada etiqueta, preguntándole a la miss y probando poco a poco hasta que entendí cómo estructurar todo. Con eso aprendí que tener paciencia y revisar cada parte me ayuda a mejorar mucho.-->
